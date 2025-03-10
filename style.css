@@ -2,33 +2,49 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    text-decoration:none;
+    text-decoration: none;
     list-style: none;
 }
 body{
     background-color: white;
 }
 .header{
-    position:fixed;
-    top:0;
-    left:0;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 20px 35px;
-    display: flex;
+    /* padding: 20px 40px; */
+    display:flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.nav-links{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:15px;
+}
+
+.navbar a{
+    text-transform:uppercase;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: grey;
+}
+  
 .logo{
-    font-size: 25px;
-    font-weight: 500px;
-    transition: 0.3s ease;
+    transition:0.3s ease;
 }
 .logo:hover{
     text-shadow: 0 0 25px black;
     transform: scale(1.1);
 }
-.navbar a{
-    font-size: 16px;
-    margin: 0px 15px;
-    transition: 0.3s;
+.hero{
+    background-image: url(https://lof8sc.yourbrand.studio/files/dynamicContent/sites/lof8sc/images/en/webpage_13/m5p6d1a5/element_252/rwdMode_1/2400x700/main.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 125vh;
 }
