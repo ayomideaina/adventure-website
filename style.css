@@ -8,7 +8,6 @@
 body{
     background-color: white;
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
     font-style:normal;
 }
 .header{
@@ -33,9 +32,10 @@ body{
 .navbar a{
     text-transform:uppercase;
     margin: 0 15px;
-    font-size: 15px;
-    font-weight: bold;
-    color: grey;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(51, 51, 51);
 }
   
 .logo{
@@ -46,14 +46,14 @@ body{
     transform: scale(1.1);
 }
 .nav-btn{
-    padding: 15px 50px;
-    border-radius: 25px;
+    padding: 17px 65px;
+    border-radius: 30px;
     border: 2px solid black;
 
 }
 
 .nav-btn:hover{
-    background-color: black;
+    background-color: rgb(51, 51, 51);
     color: white;
 }
 .hero{
@@ -71,32 +71,129 @@ body{
 .adventure{
     color: white;
     font-style: italic;
-    font-size: 25px;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Lora", serif;
+    text-size-adjust: 100%;
 }
 .hero h1{
-    font-size: 45px;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 66px;
     color: white;
     margin:20px 0;
 }
 .btn{
     background-color: white;
     color: black;
-    padding: 15px 40px;
+    margin-top: 25px;
+    padding: 10px 65px;
     border: none;
-    border-radius: 25px;
-    font-weight: bold;
+    line-height: 27px;
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 30px;
     cursor: pointer;
 }
 .btn:hover{
-    background-color: black;
+    background-color:rgb(51, 51, 51);
     color: white;
 }
 .content-two{
-    margin-top: 45px;
+    margin-top: 60px;
    text-align: center;
-   width: 1200px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: centerg;
+   /* width: 900px; */
+   align-items: center;
+}
+.impress{
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    font-weight: 400px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+    display: block;
+}
+.extreme{
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    font-weight: 400px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+    display: block;
+}
+.sec-two{
+    color: rgb(51, 51, 51);
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 27px;
+    font-size: 17px;
+    margin-bottom: 28px;
+}
+.sec-p{
+    font-style: italic;
+    font-size: 17px;
+    font-family: "Lora", serif;
+    font: weight 400;
+    line-height: 18px;
+    display: inline;
+    color: rgb(78, 94,102);
+    overflow-wrap: break-word;
+}
+.p-two{
+    color: rgb(49,128,86);
+}
+.content-three{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-three-div{
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
+.head-three{
+    color: rgb(121, 166, 144);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    width: auto;
+    margin-bottom:20px;
+}
+.sec-three-p{
+    color: rgb(51, 51, 51);
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 31px;
+    font-size: 21px;
+}
+.btn-1{
+    background-color: rgb(121, 166, 144);
+    color:rgb(251, 251, 251);
+    margin-top: 25px;
+    padding: 10px 65px;
+    border: none;
+    line-height: 27px;
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.content-four{
+    margin-top: 100px;
+    background-color: aqua;
 }
