@@ -46,7 +46,7 @@ body{
     transform: scale(1.1);
 }
 .nav-btn{
-    padding: 15px 55px;
+    padding: 15px 50px;
     border-radius: 25px;
     border: 2px solid black;
 
@@ -61,5 +61,42 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 125vh;
+    height:125vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.adventure{
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+}
+.hero h1{
+    font-size: 45px;
+    color: white;
+    margin:20px 0;
+}
+.btn{
+    background-color: white;
+    color: black;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.content-two{
+    margin-top: 45px;
+   text-align: center;
+   width: 1200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: centerg;
 }
