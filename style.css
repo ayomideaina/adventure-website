@@ -281,5 +281,69 @@ body{
     margin-left: 0px;
     width: 324px;
     height: 390px;
-    grid-row: 3;
+    grid-template-columns: 2;
+}
+.reach-us{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Lora", serif;
+}
+.reach-us h3{
+    color: rgb(51, 51, 51);
+    font-size: 28px;
+    text-decoration-style: solid;
+    line-height: 31px;
+    font-weight: 800;
+    font-style: normal;
+}
+.contact-btn{
+    background-color: rgb(121, 166, 144);
+    color:rgb(251, 251, 251);
+    padding: 10px 65px;
+    border: none;
+    line-height: 25px;
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 70px;
+    background-color: rgb(78, 94, 102);
+    background-size: auto;
+    border-bottom-color: rgb(51, 51, 51);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    height: 200px;
+    border-bottom:0px;
+    color: rgb(251, 251, 251);
+}
+.check{
+   padding:30px 0;
+   font-weight: 700;
+   font-family: Roboto;
+   line-height: 18px;
+}
+.socials img{
+    width:35px;
+    height:35px;
+}
+.socials{
+    display: block;
+    padding-bottom: 30px;
+}
+.socials a{
+    margin: 0 10px;
+}
+.last-p{
+    font-family: "Lora", serif;
+    line-height: 18px;
+}
+.wave{
+    color: rgb(0, 198, 94);
 }
