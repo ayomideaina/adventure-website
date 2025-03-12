@@ -262,11 +262,11 @@ body{
     object-fit: cover;
 }
 
-.small-images {
+/* .small-images {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-}
+} */
 
 .small-images img {
     width: 100%;
