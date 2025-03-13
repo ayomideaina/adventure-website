@@ -17,6 +17,8 @@
     }
     .hamburger {
         display: block;
+        cursor:pointer;
+        line-break: 27px;
     }
 
     /* Sections */
@@ -25,7 +27,7 @@
     margin: 80px auto;
    } 
    .content-three img{
-    margin: 0px auto 70px auto;
+    margin: 10px auto 70px auto;
    }
    .content-four{
     flex-direction: column-reverse;
@@ -47,17 +49,36 @@
 }
 
 @media(max-width:450px){
+    .hero h1{
+        font-size: 50px;
+        /* word-wrap: break-word; */
+        text-align: center;
+    }
     .sec-two{
         line-height: 18px;
         font-size: 17px;
         width: 320px;
         margin: 20px auto;
     }
+    .impress{
+        text-align: center;
+    }
+    .content-three img{
+        margin-top:25px;
+        margin-left: -90px;
+    }
+    .sec-three-div, .sec-four-div{
+        width:300px;
+    }
     .sec-three-p, .sec-four-p{
         font-size: 18px;
         width: 320px;
         margin: 15px auto;
         line-height: 18px;
+    }
+    .content-four img{
+        margin-top: auto;
+        margin-left: -25px;
     }
     .reach-us{
         text-align: center;
