@@ -1,5 +1,11 @@
 @media (max-width:900px){
     /* Header */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
     .nav-links {
         display: none;
         flex-direction: column;
@@ -26,6 +32,7 @@
    } 
    .content-three img{
     margin: 0px auto 70px auto;
+    max-width: 100%;
    }
    .content-four{
     flex-direction: column-reverse;
@@ -33,6 +40,7 @@
    }
    .content-four img{
     margin: 70px auto;
+    max-width: 100%;
    }
     .reach-us{
         flex-direction: column;
@@ -47,6 +55,12 @@
 }
 
 @media(max-width:450px){
+    .hero h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: 320px;
+        margin: 20px auto;
+    }
     .sec-two{
         line-height: 18px;
         font-size: 17px;
@@ -64,4 +78,12 @@
         width: 350px;
         margin: 25px auto;
     }
+    .content-three img{
+        margin: 0px auto 30px auto;
+        max-width: 100%;
+       }
+       .content-four img{
+        margin: 30px auto;
+        max-width: 100%;
+       }
 }
