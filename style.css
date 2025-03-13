@@ -41,7 +41,7 @@ body{
 }
 .hamburger {
     display: none;
-    font-size: 30px;
+    font-size: 26px;
     cursor: pointer;
 } 
 .logo{
