@@ -1,5 +1,11 @@
 @media (max-width:900px){
     /* Header */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
     .nav-links {
         display: none;
         flex-direction: column;
@@ -27,7 +33,7 @@
     margin: 80px auto;
    } 
    .content-three img{
-    margin: 10px auto 70px auto;
+    margin: 0px auto 70px auto;
    }
    .content-four{
     flex-direction: column-reverse;
@@ -35,6 +41,7 @@
    }
    .content-four img{
     margin: 70px auto;
+    max-width: 100%;
    }
     .reach-us{
         flex-direction: column;
@@ -53,9 +60,10 @@
         width:100px;
     }
     .hero h1{
-        font-size: 50px;
-        /* word-wrap: break-word; */
-        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        width: 320px;
+        margin: 20px, auto;
     }
     .sec-two{
         line-height: 18px;
@@ -68,7 +76,7 @@
     }
     .content-three img{
         margin-top:25px;
-        margin-left: -90px;
+        /* margin-left: -90px; */
     }
     .sec-three-div, .sec-four-div{
         width:300px;
@@ -81,11 +89,17 @@
     }
     .content-four img{
         margin-top: auto;
-        margin-left: -25px;
+        /* margin-left: -25px; */
     }
     .reach-us{
         text-align: center;
-        width: 350px;
+        width: 300px;
         margin: 25px auto;
+    }
+    .reach-us h3{
+        font-size: 20px
+    }
+    .last-p{
+        font-size: 12px;
     }
 }

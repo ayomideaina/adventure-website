@@ -156,9 +156,8 @@ body{
     font-family: "Lora", serif;
     font: weight 400;
     line-height: 28px;
-    display: inline;
+    /* display: inline; */
     color: rgb(78, 94,102);
-    overflow-wrap: break-word;
 }
 .p-two{
     color: rgb(49,128,86);
