@@ -53,7 +53,7 @@ body{
 }
 .nav-btn{
     text-align: center;
-    padding: 13px 50px;
+    padding: 13px 45px;
     border-radius: 30px;
     border: 2px solid black;
     transition: 0.5s ease;
@@ -97,13 +97,14 @@ body{
     background-color: white;
     color: black;
     margin-top: 25px;
-    padding: 10px 65px;
+    padding: 10px 50px;
     border: none;
     line-height: 27px;
     font-family: "Lora", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
+    transition: 0.5s ease-in;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -194,7 +195,7 @@ body{
     background-color: rgb(121, 166, 144);
     color:rgb(251, 251, 251);
     margin-top: 25px;
-    padding: 10px 65px;
+    padding: 10px 55px;
     border: none;
     line-height: 27px;
     font-family: "Lora", serif;
@@ -292,7 +293,7 @@ body{
 .contact-btn{
     background-color: rgb(121, 166, 144);
     color:rgb(251, 251, 251);
-    padding: 10px 65px;
+    padding: 10px 55px;
     border: none;
     line-height: 25px;
     font-family: "Lora", serif;
